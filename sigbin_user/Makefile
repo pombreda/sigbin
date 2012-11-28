@@ -11,6 +11,7 @@ make:
 	$(CC) -o $(BUILD_DIR)/debug.o -c debug.c
 	$(CC) -o $(BUILD_DIR)/elf_op.o -c elf_op.c
 	$(CC) -o $(BUILD_DIR)/hash.o -c hash.c
+	$(CC) -o $(BUILD_DIR)/help.o -c help.c
 	$(CC) -o $(BUILD_DIR)/key.o -c key.c
 	$(CC) -o $(BUILD_DIR)/section.o -c section.c
 	$(CC) -o $(BUILD_DIR)/sigbin.o -c sigbin.c
