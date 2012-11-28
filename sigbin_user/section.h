@@ -1,9 +1,6 @@
 #ifndef __SIGBIN_SECTION_H
 #define __SIGBIN_SECTION_H
 
-#ifndef __SAFSIG_SECTION_H
-#define __SAFSIG_SECTION_H
-
 //#define HASH_KERNEL
 #define NO_SUPPORT_V3
 
@@ -106,8 +103,5 @@ typedef struct sigbin_section
 	void section_print_test( sigbin_section* );
 
 #endif
-
-#endif
-
 
 #endif
