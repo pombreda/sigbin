@@ -1,0 +1,6 @@
+*.o
+*.aux
+*.pdf
+*.toc
+*.log
+sigbin
