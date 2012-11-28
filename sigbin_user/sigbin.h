@@ -4,6 +4,9 @@
 //in bytes
 #define SIGBIN_SHA256_SIZE 32
 
+//in bytes
+#define SIGBIN_RSA_KEY_SIZE 128
+
 #define SIGBIN_V0 0x0000
 #define SIGBIN_V1 0x0100 
 #define SIGBIN_V2 0x0200
