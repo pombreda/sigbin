@@ -15,7 +15,7 @@ make:
 	$(CC) -o $(BUILD_DIR)/section.o -c section.c
 	$(CC) -o $(BUILD_DIR)/sigbin.o -c sigbin.c
 	$(CC) -o $(BUILD_DIR)/utils.o -c utils.c
-	$(CC) $(CFLAGS) $(LDFALGS) $(BUILD_DIR)/*.o -o sigbin
+	$(CC) $(CFLAGS) $(LDFLAGS) $(BUILD_DIR)/*.o -o sigbin
 
 clean:
 	rm -f $(BUILD_DIR)/*.o
